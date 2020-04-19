@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>kong</artifactId>
+	<artifactId>empty-repo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kong</name>
+	<name>empty-repo</name>
 	<description>Kong API Gateway Integration</description>
 
 	<properties>

@@ -7,10 +7,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class KongApplication {
+public class EmptyRepoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KongApplication.class, args);
+		SpringApplication.run(EmptyRepoApplication.class, args);
 	}
 
 }
