@@ -15,12 +15,26 @@ import com.example.kong.dto.KongDto;
 @RequestMapping("buyerCare")
 public class BuyerCareController {
 
-	List<KongDto> kongDtos = new ArrayList<>();
+	private List<KongDto> kongDtos = new ArrayList<>();
+	private String buyercareString = "buyercare";
 	
-	@PostMapping("/buyerCare")
+	@PostMapping("/post")
 	public void postBuyerCare(@RequestBody KongDto kongDto) {
 		System.out.println("kongDto ["+kongDto+"]");
 		kongDtos.add(kongDto);
+	}
+	
+	
+	@GetMapping("/get")
+	public String getString() {
+		
+		return buyercareString;
+	}
+	
+	@GetMapping("/getEmpty")
+	public String getEmptyString() {
+		
+		return "empty";
 	}
 
 }
