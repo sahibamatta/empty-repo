@@ -7,11 +7,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class KongApplication {
+public class EmptyRepoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("kong main");
-		SpringApplication.run(KongApplication.class, args);
+		System.out.println("after rebase success");
+		SpringApplication.run(EmptyRepoApplication.class, args);
 	}
 
 }
