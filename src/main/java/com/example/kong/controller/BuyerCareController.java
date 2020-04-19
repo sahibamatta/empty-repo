@@ -30,5 +30,11 @@ public class BuyerCareController {
 		
 		return buyercareString;
 	}
+	
+	@GetMapping("/getEmpty")
+	public String getEmptyString() {
+		
+		return "empty";
+	}
 
 }
